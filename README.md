@@ -48,12 +48,26 @@ int c = a + b;      // 1 auxiliary space
 - Here the space complexity will be O(3). 
 - Similarly, if we use an array of size n, the space complexity will be O(N).
 
+## Sorting Techniques
+1. Selection Sort
+2. Bubble Sort
+3. Insertion Sort
+4. Merge Sort
+5. Recursive Bubble Sort
+6. Recursive Insertion Sort
+7. Quick Sort
+
+## Must do Pattern Problems before starting DSA
+[List of Question based on Patterns](https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/) <br>
+[Solution](https://github.com/DeveshAilani/DataStructuresAndAlgorithms/tree/main/src/a_patterns)
+
 ## About me <img src="https://media.tenor.com/k_FD58xnsicAAAAi/work-internet.gif" width="33">
 - Hey! 👋,  I'm Devesh Ailani
 - 👨🏻‍💻 Working at [Lenskart](https://lenskart.com/) as a Senior Software Enginner
 - 🦸🏻‍♂️ [DeveshAilani](https://www.linkedin.com/in/deveshailani/) on Linkedin
 
 ## Important Links 📔
+▶️ [take U forward](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) <br>
 📌 [500+ Data Structures and Algorithms Interview Questions & Practice Problems](https://medium.com/techie-delight/500-data-structures-and-algorithms-practice-problems-35afe8a1e222) <br>
 📌 [Striver’s SDE Sheet – Top Coding Interview Problems](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems) <br>
 📌 [Top 50 String Coding Problems for Interviews](https://www.geeksforgeeks.org/top-50-string-coding-problems-for-interviews/) <br>
