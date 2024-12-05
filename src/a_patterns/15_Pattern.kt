@@ -10,7 +10,7 @@ package a_patterns
 
  */
 fun main() {
-    printPattern(n = 0)
+    printPattern(n = 5)
 }
 
 private fun printPattern(n: Int) {
@@ -63,13 +63,7 @@ private fun printArray(array: Array<IntArray>, maxNum: Int) {
     for (i in 0..<array.size) {
         for (j in 0..<array.size) {
             val num = array[i][j]
-            val numSize = num.toString().length
-            val spaceCount = (maxNumSize + 3) - numSize
-            val sb = StringBuilder(num.toString())
-            for (k in 1..spaceCount) {
-                sb.append(" ")
-            }
-            print(sb.toString())
+            print("$num \t")
         }
         println()
     }
