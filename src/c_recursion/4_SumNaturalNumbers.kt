@@ -18,13 +18,33 @@ fun main() {
     // println("-------")
     // printSumOfNaturalNumber(input2, sum)
 
-    println(sumOfNaturalNumber(input1))
+    sumOfNaturalNumber1(input1)
+    sumOfNaturalNumber1(input2)
     println("-------")
-    println(sumOfNaturalNumber(input2))
+
+    sumOfNaturalNumber2(input1, sum)
+    sumOfNaturalNumber2(input2, sum)
+    println("-------")
+
+    println(sumOfNaturalNumber3(input1))
+    println(sumOfNaturalNumber3(input2))
+    println("-------")
 }
 
-// Parameterized Way
-private fun printSumOfNaturalNumber(num: Int, sum: Int) {
+// Method 1: using maths formula
+fun sumOfNaturalNumber1(n: Int) {
+    if(n < 1){
+        println("Invalid Input")
+        return
+    }
+
+    val sum = (n*(n+1))/2
+    println(sum)
+}
+
+
+// Method 2: Parameterized Way
+private fun sumOfNaturalNumber2(num: Int, sum: Int) {
     if (num < 1) {
         println("Invalid Input")
         return
@@ -32,21 +52,21 @@ private fun printSumOfNaturalNumber(num: Int, sum: Int) {
 
     val total = sum + num
     if (num > 1) {
-        printSumOfNaturalNumber(num - 1, total)
+        sumOfNaturalNumber2(num - 1, total)
     } else {
         println(total)
     }
 }
 
-// Functional Way
-private fun sumOfNaturalNumber(num: Int):Int {
+// Method 3: Functional Way
+private fun sumOfNaturalNumber3(num: Int):Int {
     if (num < 1) {
         println("Invalid Input")
         return -1
     }
 
     if (num > 1) {
-        return num + sumOfNaturalNumber(num - 1)
+        return num + sumOfNaturalNumber3(num - 1)
     } else return 1
 }
 

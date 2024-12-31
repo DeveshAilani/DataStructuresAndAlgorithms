@@ -14,7 +14,7 @@ fun main() {
     val input2 = 10
 
     printTillUsingRecursion(input1)
-    println("---")
+    println()
     printTillUsingRecursion(input2)
 }
 
@@ -28,5 +28,5 @@ private fun printTillUsingRecursion(num: Int) {
         printTillUsingRecursion(num -1)
     }
 
-    println(num)
+    print("$num ")
 }

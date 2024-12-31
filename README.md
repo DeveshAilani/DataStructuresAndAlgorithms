@@ -10,6 +10,12 @@
 ## What is Algorithms?
 - An algorithm is a set of step-by-step instructions to solve a given problem or achieve a specific goal.
 
+## How to Analyze an Algorithms?
+- Time
+- Space
+- Network/Internet consumption
+- Power consumption 
+- CPU consumption
 
 ## Time Complexity ⏰ 
 - The number of times a particular instruction set is executed rather than the total time taken. It is because the total time taken also depends on some external factors like the compiler used, the processor’s speed, etc.
