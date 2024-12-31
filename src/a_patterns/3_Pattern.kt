@@ -15,8 +15,8 @@ fun main() {
 }
 
 private fun printPattern(row: Int) {
-    for (i in 1..row) {
-        for (j in 1..i) {
+    for (i in 0..row) {
+        for (j in 0..<i) {
             print("$j ")
         }
         println()

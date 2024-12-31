@@ -1,10 +1,10 @@
 package c_recursion
 
-import kotlin.math.log10
-
-
 /*
+Print numbers without using loop
+or
 Print numbers using recursion
+
 Problem Statement: Given an integer N, print the number from N to 1 using recursion
 Input:N = 5
 Output: 5, 4, 3, 2, 1
@@ -15,6 +15,9 @@ fun main() {
     printNumberUsingRecursion(input1)
     println("-----")
     printNumberUsingRecursion(input2)
+    printNumberUsingRecursion(-6)
+    printNumberUsingRecursion(0)
+    printNumberUsingRecursion(1)
 }
 
 private fun printNumberUsingRecursion(num: Int) {
@@ -23,8 +26,10 @@ private fun printNumberUsingRecursion(num: Int) {
         return
     }
 
-    println(num)
-    if (num > 1) {
+    if(num > 1) {
+        print("$num, ")
         printNumberUsingRecursion(num - 1)
+    } else {
+        println(num)
     }
 }

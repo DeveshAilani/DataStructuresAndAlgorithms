@@ -24,5 +24,5 @@ private fun printName(n: Int, name: String) {
     if (n > 1) {
         printName(n - 1, name)
     }
-    println(name)
+    println("$n. $name")
 }
